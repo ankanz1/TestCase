@@ -1,0 +1,42 @@
+{
+  "baseline_4_layer_macro_f1": 0.3575,
+  "results": [
+    {
+      "layers": 2,
+      "qubits": 8,
+      "parameters": 93,
+      "best_macro_f1": 0.314124580558606,
+      "balanced_accuracy": 0.5457170124298003,
+      "accuracy": 0.483
+    },
+    {
+      "layers": 4,
+      "qubits": 8,
+      "parameters": 141,
+      "best_macro_f1": 0.35748145738999115,
+      "balanced_accuracy": 0.5707141203089311,
+      "accuracy": 0.5625
+    },
+    {
+      "layers": 6,
+      "qubits": 8,
+      "parameters": 189,
+      "best_macro_f1": 0.33104633840281517,
+      "balanced_accuracy": 0.5583945030909919,
+      "accuracy": 0.5015
+    },
+    {
+      "layers": 8,
+      "qubits": 8,
+      "parameters": 237,
+      "best_macro_f1": 0.33420432179925225,
+      "balanced_accuracy": 0.5820410625112445,
+      "accuracy": 0.5175
+    }
+  ],
+  "highest_validation_macro_f1": {
+    "layers": 4,
+    "best_macro_f1": 0.35748145738999115,
+    "change_vs_4_layer_baseline": -1.8542610008831506e-05
+  }
+}

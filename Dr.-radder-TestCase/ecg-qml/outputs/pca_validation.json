@@ -1,0 +1,27 @@
+{
+  "train_shape": [
+    70043,
+    187
+  ],
+  "validation_shape": [
+    17511,
+    187
+  ],
+  "test_shape": [
+    21892,
+    187
+  ],
+  "original_feature_count": 187,
+  "compressed_feature_count": 8,
+  "transform_checks": {
+    "input_shape": [
+      187
+    ],
+    "output_shape": [
+      8
+    ],
+    "output_shape_is_8": true,
+    "no_nan": true,
+    "deterministic": true
+  }
+}
